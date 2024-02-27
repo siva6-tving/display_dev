@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
 
-	"name":"Display DEV/QA",
-	"description":"DEV URL인 경우 표시",
+	"name":"Display DEV/QA/QC",
+	"description":"DEV/QA/QC URL인 경우 표시",
 	"version":"0.0.1",
 
 	"permissions": [
@@ -14,7 +14,9 @@
 			"http://*.tving.com/*",
 			"https://*.tving.com/*"
 		],
-        "js": ["lib/jquery/jquery.js", "lib/underscore.js", "lib/axios.js", "lib/day.js", "lib/content/load.js"]
+        "js": ["lib/jquery/jquery.js", "lib/underscore.js", "lib/axios.js", "lib/day.js", "lib/content/load.js"],
+		"all_frames": true,
+		"run_at": "document_idle"
     }],
 	"content_security_policy": {
 		"script-src": "self ssl.google-analytics.com",
