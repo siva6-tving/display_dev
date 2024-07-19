@@ -21,5 +21,17 @@
 	"content_security_policy": {
 		"script-src": "self ssl.google-analytics.com",
 		"object-src": "self"
-	}
+	},
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"lib/data/LT.mp3",
+				"lib/data/SS.mp3"
+			],
+			"matches": [
+				"http://*.tving.com/*",
+				"https://*.tving.com/*"
+			]
+		}
+	]
 }
