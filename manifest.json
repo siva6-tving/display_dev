@@ -14,7 +14,7 @@
 			"http://*.tving.com/*",
 			"https://*.tving.com/*"
 		],
-        "js": ["lib/jquery/jquery.js", "lib/underscore.js", "lib/axios.js", "lib/day.js", "lib/content/load.js"],
+        "js": ["lib/jquery/jquery.js", "lib/underscore.js", "lib/axios.js", "lib/day.js", "lib/content/player.js", "lib/content/load.js"],
 		"all_frames": true,
 		"run_at": "document_idle"
     }],
@@ -25,9 +25,8 @@
 	"web_accessible_resources": [
 		{
 			"resources": [
-				"lib/data/LT.mp3",
-				"lib/data/SS.mp3",
-				"lib/data/SK.mp3"
+				"lib/data/*.mp3",
+				"lib/data/player/*.mp3"
 			],
 			"matches": [
 				"http://*.tving.com/*",
