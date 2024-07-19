@@ -26,7 +26,8 @@
 		{
 			"resources": [
 				"lib/data/LT.mp3",
-				"lib/data/SS.mp3"
+				"lib/data/SS.mp3",
+				"lib/data/SK.mp3"
 			],
 			"matches": [
 				"http://*.tving.com/*",
