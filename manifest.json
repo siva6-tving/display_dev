@@ -3,7 +3,7 @@
 
 	"name":"Display DEV/QA/QC",
 	"description":"DEV/QA/QC URL인 경우 표시",
-	"version":"0.0.1",
+	"version":"24.29.6",
 
 	"permissions": [
 		"tabs",
